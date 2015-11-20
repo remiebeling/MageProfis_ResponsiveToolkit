@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MageProfis_ResponsiveToolkit>
+            <version>1.0.0.0</version>
+        </MageProfis_ResponsiveToolkit>
+    </modules>
+    <global>
+        <helpers>
+            <responsivetoolkit>
+                <class>MageProfis_ResponsiveToolkit_Helper</class>
+            </responsivetoolkit>
+        </helpers>
+        <models>
+            <responsivetoolkit>
+                <class>MageProfis_ResponsiveToolkit_Model</class>
+            </responsivetoolkit>
+        </models>
+        <events>
+            <core_layout_update_updates_get_after>
+                <observers>
+                    <mageprofis_responsive_toolkit_add_layout_updates>
+                        <type>singleton</type>
+                        <class>responsivetoolkit/observer</class>
+                        <method>addLayoutXml</method>
+                    </mageprofis_responsive_toolkit_add_layout_updates>
+                </observers>
+            </core_layout_update_updates_get_after>
+        </events>
+    </global>
+</config>

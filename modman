@@ -1,0 +1,4 @@
+src/app/code/local/MageProfis/ResponsiveToolkit/                                    app/code/local/MageProfis/ResponsiveToolkit/
+src/app/design/frontend/base/default/layout/mageprofis-responsive-toolkit.xml       app/design/frontend/base/default/layout/mageprofis-responsive-toolkit.xml
+src/app/etc/modules/MageProfis_ResponsiveToolkit.xml                                app/etc/modules/MageProfis_ResponsiveToolkit.xml
+src/skin/frontend/base/default/js/mageprofis/responsive_tools                       skin/frontend/base/default/js/mageprofis/responsive_tools

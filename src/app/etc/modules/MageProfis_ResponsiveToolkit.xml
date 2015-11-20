@@ -1,0 +1,11 @@
+<config>
+   <modules>
+      <MageProfis_ResponsiveToolkit>
+         <active>true</active>
+         <codePool>local</codePool>
+         <depends>
+             <Webcomm_MagentoBoilerplate />
+         </depends>
+      </MageProfis_ResponsiveToolkit>
+   </modules>
+</config>
