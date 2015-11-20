@@ -7,8 +7,8 @@ the default breadcrumb is removed and a Mobile-User friendly dropdown is created
 ###Responsive js tools
 When this module is active you can use the "responsive"-object.
 
-The "responsive"- method gives you the ability to match bootstraps breakpoints witch
-js easily. just pass the breakpoint you want to test for to the isBreakpoint() - Method.
+The isBreakpoint() - Method gives you the ability to exactly match bootstraps 
+breakpoints with js easily. Just pass the breakpoint you want to test for.
 
 example:
 
@@ -16,5 +16,17 @@ example:
 if(responsive.isBreakpoint('xs'))
 {
     //Do some mobile Specific stuff here.
+}
+</pre>
+
+The isTouchDevice Method is a shorthand to find out if the current
+Breakpoint is a touch device or not.
+
+example:
+
+<pre>
+if(responsive.isTouchDevice())
+{
+    //Do some Touch Specific stuff here.
 }
 </pre>
