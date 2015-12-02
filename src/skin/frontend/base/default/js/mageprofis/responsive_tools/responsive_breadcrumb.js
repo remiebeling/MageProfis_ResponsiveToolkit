@@ -26,8 +26,9 @@ var breadcrumb = {
             if (typeof href != 'undefined') {
                 breadcrumbObject.addOption(jQuery(this).text(), href);
             }
-
         });
+        Translator.add('back', 'zurück');
+        breadcrumbObject.addOption(Translator.translate('back'), '');
     },
     createMobileBreadcrumb: function () {
         if (this.getState() == 'default') {
